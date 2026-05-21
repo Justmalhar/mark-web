@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Mark">
+  <title>Mark</title>
+  <g fill="#1D1D1F">
+    <!-- Geometric M letterform -->
+    <path d="
+      M 144 148
+      L 312 148
+      L 512 476
+      L 712 148
+      L 880 148
+      L 880 660
+      L 736 660
+      L 736 360
+      L 600 580
+      L 424 580
+      L 288 360
+      L 288 660
+      L 144 660
+      Z
+    "/>
+    <!-- Down arrow -->
+    <path d="
+      M 456 708
+      L 568 708
+      L 568 780
+      L 656 780
+      L 512 876
+      L 368 780
+      L 456 780
+      Z
+    "/>
+  </g>
+</svg>

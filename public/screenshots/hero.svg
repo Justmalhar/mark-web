@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Mark hero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f7fb"/>
+      <stop offset="1" stop-color="#eef1f7"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fafbfd"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dy="20"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+
+  <!-- Mac window -->
+  <g filter="url(#shadow)">
+    <rect x="120" y="100" width="1360" height="800" rx="18" ry="18" fill="url(#window)" stroke="#dfe3eb" stroke-width="1"/>
+    <!-- Title bar -->
+    <rect x="120" y="100" width="1360" height="44" rx="18" ry="18" fill="#f3f5f9"/>
+    <rect x="120" y="132" width="1360" height="12" fill="#f3f5f9"/>
+    <line x1="120" y1="144" x2="1480" y2="144" stroke="#e5e8ee" stroke-width="1"/>
+    <!-- Traffic lights -->
+    <circle cx="146" cy="122" r="6.5" fill="#ff5f57"/>
+    <circle cx="166" cy="122" r="6.5" fill="#febc2e"/>
+    <circle cx="186" cy="122" r="6.5" fill="#28c840"/>
+    <!-- Title -->
+    <text x="760" y="127" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="13" fill="#6e6e73">sample.md — Edited</text>
+
+    <!-- Floating toolbar pill -->
+    <g transform="translate(560 184)">
+      <rect width="480" height="48" rx="24" ry="24" fill="#ffffff" stroke="#dfe3eb"/>
+      <g fill="#1d1d1f" font-family="-apple-system,Inter,sans-serif" font-size="14">
+        <text x="22" y="29" font-weight="700">B</text>
+        <text x="58" y="29" font-style="italic">I</text>
+        <text x="90" y="29" text-decoration="line-through">S</text>
+        <line x1="118" y1="14" x2="118" y2="34" stroke="#d8dde6"/>
+        <g transform="translate(132 14)">
+          <rect width="14" height="2" rx="1"/>
+          <rect y="6" width="14" height="2" rx="1"/>
+          <rect y="12" width="14" height="2" rx="1"/>
+          <rect y="18" width="14" height="2" rx="1"/>
+        </g>
+        <text x="166" y="29">1.</text>
+        <text x="192" y="29">✓</text>
+        <line x1="220" y1="14" x2="220" y2="34" stroke="#d8dde6"/>
+        <text x="236" y="29">❝</text>
+        <text x="262" y="29">{`{ }`}</text>
+        <text x="296" y="29">▦</text>
+        <text x="324" y="29">—</text>
+        <line x1="354" y1="14" x2="354" y2="34" stroke="#d8dde6"/>
+        <text x="370" y="29">🔗</text>
+        <text x="402" y="29">📷</text>
+      </g>
+    </g>
+
+    <!-- Content -->
+    <g font-family="-apple-system,Inter,sans-serif" fill="#1d1d1f">
+      <text x="320" y="320" font-size="46" font-weight="700">Welcome to Mark</text>
+      <text x="320" y="370" font-size="18" fill="#3a3a3c">A native macOS markdown editor.
+        <tspan font-weight="700"> Light</tspan>,
+        <tspan font-style="italic"> fast</tspan>,
+        and delightful.
+      </text>
+      <text x="320" y="440" font-size="28" font-weight="700">Features</text>
+      <g font-size="16" fill="#3a3a3c">
+        <text x="340" y="478">•  WYSIWYG editing with toolbar</text>
+        <text x="340" y="506">•  GitHub Flavored Markdown</text>
+        <text x="340" y="534">•  KaTeX math: <tspan font-family="ui-serif,Georgia,serif" font-style="italic">E = mc²</tspan></text>
+        <text x="340" y="562">•  Syntax-highlighted code</text>
+      </g>
+
+      <!-- Code block -->
+      <g transform="translate(320 596)">
+        <rect width="960" height="120" rx="12" ry="12" fill="#f5f5f7"/>
+        <rect x="852" y="14" width="92" height="22" rx="11" ry="11" fill="#ffffff" stroke="#e5e8ee"/>
+        <text x="898" y="29" text-anchor="middle" font-size="12" fill="#6e6e73">TypeScript</text>
+        <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
+          <text x="20" y="50"><tspan fill="#a626a4">function</tspan> <tspan fill="#4078f2">hello</tspan>(name: <tspan fill="#4078f2">string</tspan>): <tspan fill="#4078f2">string</tspan> {`{`}</text>
+          <text x="20" y="74">  <tspan fill="#a626a4">return</tspan> <tspan fill="#50a14f">`Hello, ${`{name}`}!`</tspan>;</text>
+          <text x="20" y="98">{`}`}</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
