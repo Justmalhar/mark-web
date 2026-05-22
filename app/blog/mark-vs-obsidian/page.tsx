@@ -92,8 +92,8 @@ export default function Page() {
         $50/user/year. It's affordable, but it is a subscription.
       </p>
       <p>
-        Mark is <strong>$19.99 once, lifetime license, free updates inside
-        v1</strong>. No subscription. The Mac App Store handles the transaction
+        Mark is <strong>$19.99 once, lifetime license, free updates for
+        life</strong>. No subscription. The Mac App Store handles the transaction
         and you can install Mark on every Mac signed in to your Apple ID.
       </p>
 

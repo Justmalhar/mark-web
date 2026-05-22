@@ -42,11 +42,9 @@ export default function TermsPage() {
 
       <h2>4. One-time purchase</h2>
       <p>
-        Mark v1 is a one-time purchase. Buying Mark grants you a perpetual
-        license to use the version you purchased on the Macs associated with
-        your Apple ID. Free maintenance updates within the v1.x release line
-        are included. A future v2 release, if produced, may be a separate
-        paid upgrade; you are never required to upgrade.
+        Mark is a one-time purchase. Buying Mark grants you a perpetual
+        license to use the app on the Macs associated with your Apple ID. Free
+        updates are included for the lifetime of the product.
       </p>
 
       <h2>5. Refunds</h2>

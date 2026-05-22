@@ -103,7 +103,7 @@ const faqs = [
   },
   {
     q: "Does Mark support iCloud Drive?",
-    a: "Mark works with any file you can read in Finder, including files stored in iCloud Drive. There is no iCloud-specific syncing inside the app in v1.",
+    a: "Mark works with any file you can read in Finder, including files stored in iCloud Drive. There is no iCloud-specific syncing inside the app — your files just live where you put them.",
   },
   {
     q: "I found a bug. What should I do?",

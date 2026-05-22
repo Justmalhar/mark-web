@@ -94,7 +94,7 @@ export default function Page() {
         Pricing is fair, but it's a recurring charge.
       </p>
       <p>
-        Mark is <strong>$19.99 once, lifetime license, free v1 updates</strong>.
+        Mark is <strong>$19.99 once, lifetime license, free updates for life</strong>.
         No subscription. It costs less in year one, year two, year three, year
         four — and you keep it indefinitely.
       </p>

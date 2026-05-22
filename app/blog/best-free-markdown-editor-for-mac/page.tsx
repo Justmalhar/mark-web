@@ -75,7 +75,7 @@ export default function Page() {
         <li>Active development and an actual support channel</li>
       </ul>
       <p>
-        Mark is <strong>$19.99 once, free updates for life within v1, no
+        Mark is <strong>$19.99 once, free updates for life, no
         subscription</strong>. If you spend more than an hour a week in
         Markdown, the time saved is real.
       </p>

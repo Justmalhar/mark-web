@@ -3,8 +3,8 @@ import { Check } from "lucide-react";
 
 const included = [
   "Universal macOS app — Apple Silicon and Intel",
-  "All v1 features — WYSIWYG, math, code, exports",
-  "Free updates within v1 — for as long as you use Mark",
+  "Every feature — WYSIWYG, math, code, exports",
+  "Free updates for life",
   "Single Apple ID — install on every Mac you own",
   "Sandboxed, private, offline. No telemetry. No subscription.",
 ];
@@ -29,7 +29,7 @@ export function Pricing() {
 
         <p className="mx-auto mt-4 max-w-xl text-balance text-[17px] text-muted-foreground md:text-lg">
           A lifetime purchase. Use Mark on every Mac signed in to your Apple ID,
-          with free updates forever within v1.
+          with free updates for life.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">

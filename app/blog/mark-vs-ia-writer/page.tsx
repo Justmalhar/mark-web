@@ -73,7 +73,7 @@ export default function Page() {
       </p>
       <p>
         Mark is <strong>$19.99 once on Mac</strong>, lifetime, free updates
-        within v1. Less than half the price of iA Writer Mac alone.
+        for life. Less than half the price of iA Writer Mac alone.
       </p>
 
       <h2>When to pick each</h2>
